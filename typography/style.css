@@ -1,0 +1,66 @@
+html {
+    color: black;
+    font-family: 'Vazir', serif;
+}
+
+body {
+    margin: 0;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 5rem;
+}
+
+#blue{
+    background-color: rgb(16, 165, 211);
+    height: 30px;
+    width: 30px;
+    border : 0.25px solid black;
+    border-radius: 0.375rem;
+}
+#green{
+    background-color: rgb(27, 131, 27);
+    height: 30px;
+    width: 30px;
+    border : 0.25px solid black;
+    border-radius: 0.375rem;
+}
+#red{
+    background-color: rgb(194, 117, 46);
+    height: 30px;
+    width: 30px;
+    border : 0.25px solid black;
+    border-radius: 0.375rem;
+}
+#withc{
+    background-color: #ffff;
+    height: 30px;
+    width: 30px;
+    border : 2px solid black;
+    border-radius: 0.375rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.h1{
+	color: rgba(240, 6, 6, 0.945);
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	flex-direction: column;
+}
+.a{
+	text-decoration:none;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+
+    <link rel="icon" type="image/x-icon" href="./66163.png">
+    <title>Timer</title>
+    <link rel="stylesheet" href="./style-2.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1><a href="../index.html" class="h1 a">back</a></h1>
+
+
+    <audio id="myAudio">
+        <source src="./time-1-1.mp3" type="audio/mpeg">
+    </audio>
+    <header class="container">
+        <header class="start-box active">
+            <input type="text" id="input-counter" placeholder="زمان مورد نظر خود را وارد کنید">
+            <button class="key" data-key="13" id="start-counter"  type="button" onclick="playAudio()">شروع</button>
+        </header>
+        <div id="error-massage"></div>
+        <article class="c100 p100">
+            <span id="timer">0</span>
+            <header class="slice">
+                <header class="bar"></header>
+                <article class="fill"></article>
+            </header>
+        </article>
+        <section class="message">
+            <span class="loading">در حال اجرا ...</span>
+            <span class="success">شمارنده با موفقیت به پایان رسید</span>
+        </section><br><br>
+        <footer>
+            <header id="blue"></header><br>
+            <article id="green"></article><br>
+            <section id="red"></section><br>
+            <footer id="withc"></footer>
+        </footer>
+        <script src="./script.js"></script>
+    </header>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/rastikerdar/vazir-font/v20.1.0/dist/font-face.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css">
+    <title>video</title>
+</head>
+<body>
+    <h1><a href="../index.html" class="h1 a">back</a></h1>
+
+    
+    <header class="myplayer">
+        <video src="./video.mp4" class="key" data-key="32"></video>
+        <header class="myplayer__controls">
+            <header class="controls__progressbar">
+                <input class="controls__progressbar-current" type="range" min="1" max="100" step="1" value="0" >
+            </header>
+        
+            <article class="controls__btns">
+                <header class="left">
+                    <header class="btns play">
+                        <i class="icon ion-md-play"></i>
+                    </header>
+                    <article class="btns rewind">
+                        <i class="icon ion-md-rewind"></i>
+                    </article>
+                    <section class="btns forward">
+                        <i class="icon ion-md-fastforward"></i>
+                    </section>
+                    <footer class="timer">
+                        <span class="currentTime">00:00</span>
+                        <span>/</span>
+                        <span class="videoTime" >00:00</span>
+                    </footer>
+                </header>
+                <article class="right">
+                    <header class="btns volume">
+                        <i class="icon ion-md-volume-high"></i>
+                        <header class="volume__progress">
+                            <input id="volume_bar" type="range" min="1" max="100" step="1" value="50" >
+                        </header>
+                    </header>
+                    <article class="btns fullscreen">
+                        <i class="icon ion-md-expand"></i>
+                    </article>
+                </article>
+            </article>
+        </header>
+    </header>
+    <footer>
+        <header id="blue"></header><br>
+        <article id="green"></article><br>
+        <section id="red"></section><br>
+        <footer id="withc"></footer>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+*{
+	background-color: cadetblue;
+}
+
+.h1{
+	color: rgba(240, 6, 6, 0.945);
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	flex-direction: column;
+}
+.a{
+	text-decoration:none;
+}
